@@ -167,7 +167,8 @@
         "Pagamento tassa",
         "Controllo identificativo",
         "Stato"
-      ]
+      ],
+      "chartColumn": 7
     },
     {
       "id": "controlli",

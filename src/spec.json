@@ -1,0 +1,333 @@
+{
+  "title": "Gestione delle candidature ai concorsi",
+  "description": "Registro delle candidature, controlli su requisiti e pagamenti, scadenze e liste di ammissione. I codici identificativi sono inventati e mascherati dove necessario. Le comunicazioni ufficiali restano da inviare tramite i canali autorizzati dell’ente.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Quadro delle candidature",
+      "description": "Controlla a colpo d’occhio le pratiche da verificare e le scadenze vicine.",
+      "metrics": [
+        {
+          "label": "Candidature ricevute",
+          "value": "48"
+        },
+        {
+          "label": "Da controllare",
+          "value": "7"
+        },
+        {
+          "label": "Requisiti da chiarire",
+          "value": "3"
+        },
+        {
+          "label": "Pagamenti da verificare",
+          "value": "4"
+        },
+        {
+          "label": "In scadenza questo mese",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Codice anonimo",
+        "Concorso",
+        "Controllo da fare",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "LUM-2481",
+          "Istruttori di archivio",
+          "Verificare requisito di studio",
+          "12/06/2026",
+          "In attesa di chiarimento"
+        ],
+        [
+          "VEL-3176",
+          "Assistenti amministrativi",
+          "Controllare pagamento tassa",
+          "14/06/2026",
+          "Da verificare"
+        ],
+        [
+          "NUB-5029",
+          "Istruttori di archivio",
+          "Confrontare codice identificativo",
+          "16/06/2026",
+          "Controllo interno"
+        ],
+        [
+          "LUM-6634",
+          "Tecnici di gestione",
+          "Confermare requisito richiesto",
+          "19/06/2026",
+          "In attesa di chiarimento"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "candidature",
+      "title": "Registro candidature",
+      "description": "Cerca e filtra le candidature. Controlla i dati identificativi, i requisiti e il pagamento prima di aggiornare lo stato.",
+      "metrics": [
+        {
+          "label": "Totale candidature",
+          "value": "48"
+        },
+        {
+          "label": "Da verificare",
+          "value": "7"
+        },
+        {
+          "label": "Ambigue",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Codice anonimo",
+        "Nome e cognome",
+        "Concorso",
+        "Data candidatura",
+        "Requisiti",
+        "Pagamento tassa",
+        "Controllo identificativo",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "LUM-2481",
+          "Mira Valen",
+          "Istruttori di archivio",
+          "03/06/2026",
+          "Da chiarire",
+          "Verificato",
+          "In corso",
+          "In attesa di chiarimento"
+        ],
+        [
+          "VEL-3176",
+          "Tavo Neri",
+          "Assistenti amministrativi",
+          "04/06/2026",
+          "Verificati",
+          "Da verificare",
+          "Verificato",
+          "Da verificare"
+        ],
+        [
+          "NUB-5029",
+          "Lira Soven",
+          "Istruttori di archivio",
+          "05/06/2026",
+          "Verificati",
+          "Verificato",
+          "Da controllare",
+          "Controllo interno"
+        ],
+        [
+          "LUM-6634",
+          "Veno Ral",
+          "Tecnici di gestione",
+          "06/06/2026",
+          "Da chiarire",
+          "Verificato",
+          "Verificato",
+          "In attesa di chiarimento"
+        ],
+        [
+          "VEL-8412",
+          "Niva Loran",
+          "Assistenti amministrativi",
+          "06/06/2026",
+          "Verificati",
+          "Verificato",
+          "Verificato",
+          "Ammesso"
+        ],
+        [
+          "NUB-1937",
+          "Sira Mavel",
+          "Tecnici di gestione",
+          "07/06/2026",
+          "Verificati",
+          "Da verificare",
+          "Verificato",
+          "Da verificare"
+        ]
+      ],
+      "form": [
+        "Codice anonimo",
+        "Nome e cognome",
+        "Concorso",
+        "Data candidatura",
+        "Requisiti",
+        "Pagamento tassa",
+        "Controllo identificativo",
+        "Stato"
+      ]
+    },
+    {
+      "id": "controlli",
+      "title": "Controlli e chiarimenti",
+      "description": "Segna il controllo necessario, assegna un responsabile e registra l’esito del chiarimento. Per comunicazioni con valore legale, usa il canale ufficiale previsto dall’ente e conserva la relativa ricevuta.",
+      "metrics": [
+        {
+          "label": "Controlli aperti",
+          "value": "7"
+        },
+        {
+          "label": "Chiarimenti attesi",
+          "value": "3"
+        },
+        {
+          "label": "Controlli completati",
+          "value": "41"
+        }
+      ],
+      "columns": [
+        "Codice anonimo",
+        "Concorso",
+        "Motivo del controllo",
+        "Responsabile",
+        "Data apertura",
+        "Scadenza",
+        "Esito",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "LUM-2481",
+          "Istruttori di archivio",
+          "Requisito di studio non chiaro",
+          "Neri Vela",
+          "05/06/2026",
+          "12/06/2026",
+          "In attesa di riscontro",
+          "Aperto"
+        ],
+        [
+          "NUB-5029",
+          "Istruttori di archivio",
+          "Codice identificativo da confrontare",
+          "Sela Lumo",
+          "05/06/2026",
+          "16/06/2026",
+          "Controllo interno in corso",
+          "Aperto"
+        ],
+        [
+          "LUM-6634",
+          "Tecnici di gestione",
+          "Requisito richiesto da confermare",
+          "Ravi Nubi",
+          "06/06/2026",
+          "19/06/2026",
+          "In attesa di riscontro",
+          "Aperto"
+        ],
+        [
+          "VEL-3176",
+          "Assistenti amministrativi",
+          "Pagamento tassa da verificare",
+          "Neri Vela",
+          "06/06/2026",
+          "14/06/2026",
+          "Pagamento da controllare",
+          "In lavorazione"
+        ]
+      ],
+      "form": [
+        "Codice anonimo",
+        "Concorso",
+        "Motivo del controllo",
+        "Responsabile",
+        "Data apertura",
+        "Scadenza",
+        "Esito",
+        "Stato"
+      ]
+    },
+    {
+      "id": "liste-ammissione",
+      "title": "Liste di ammissione",
+      "description": "Prepara due viste della stessa lista: una interna con i nominativi e una per la pubblicazione con i soli codici anonimi. Verifica la lista prima di renderla disponibile.",
+      "metrics": [
+        {
+          "label": "Ammessi",
+          "value": "35"
+        },
+        {
+          "label": "Esclusi",
+          "value": "6"
+        },
+        {
+          "label": "In verifica",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Codice anonimo",
+        "Nome e cognome",
+        "Concorso",
+        "Esito",
+        "Data esito",
+        "Vista interna",
+        "Vista pubblica"
+      ],
+      "rows": [
+        [
+          "VEL-8412",
+          "Niva Loran",
+          "Assistenti amministrativi",
+          "Ammesso",
+          "08/06/2026",
+          "Nominativo presente",
+          "Solo codice"
+        ],
+        [
+          "LUM-2481",
+          "Mira Valen",
+          "Istruttori di archivio",
+          "In verifica",
+          "08/06/2026",
+          "Nominativo presente",
+          "Solo codice"
+        ],
+        [
+          "NUB-1937",
+          "Sira Mavel",
+          "Tecnici di gestione",
+          "Da verificare",
+          "08/06/2026",
+          "Nominativo presente",
+          "Solo codice"
+        ],
+        [
+          "VEL-4208",
+          "Taren Vosi",
+          "Assistenti amministrativi",
+          "Ammesso",
+          "08/06/2026",
+          "Nominativo presente",
+          "Solo codice"
+        ]
+      ],
+      "form": [
+        "Codice anonimo",
+        "Nome e cognome",
+        "Concorso",
+        "Esito",
+        "Data esito",
+        "Vista interna",
+        "Vista pubblica"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "bordeaux-oro",
+    "fonts": "classico"
+  }
+}
